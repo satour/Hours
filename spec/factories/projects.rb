@@ -7,6 +7,7 @@
 #  created_at :datetime
 #  updated_at :datetime
 #  slug       :string(255)
+#  client_id  :integer
 #
 
 # Read about factories at https://github.com/thoughtbot/factory_girl

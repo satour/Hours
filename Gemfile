@@ -38,6 +38,7 @@ gem "rails-assets-chartjs", "~> 1.0.1.beta.4"
 gem "twitter-text" # hashtag parsing
 gem "jquery-atwho-rails" # autocomplete
 gem "haml-rails"
+gem "paperclip", "~> 4.2"
 
 # caching
 
