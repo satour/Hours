@@ -33,6 +33,10 @@ class Project < ActiveRecord::Base
     name
   end
 
+  def title
+    client ? name + " - " + client.name : name
+  end
+
   private
 
   def slug_source
