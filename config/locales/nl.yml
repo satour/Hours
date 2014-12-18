@@ -19,6 +19,12 @@ nl:
     users_instructions_html: "Collega's kunnen zich %{sign_up_path} registreren met
       een email dat eindigt op <em> %{domain} </em>"
   account_created_successfully: Aanmelden is gelukt
+  archives:
+    index:
+      date: Datum
+      project: Project
+      hours: Uren
+      un_archive_link: Dearchiveren
   activerecord:
     errors:
       models:
@@ -146,6 +152,8 @@ nl:
       hours: Uren
       tag: Tag
     show:
+      archive_link: Archiveren
+      un_archive_link: Dearchiveren
       edit_link: aanpassen
       per_user: Per gebruiker
 
@@ -154,6 +162,8 @@ nl:
     other: "%{count} mensen hebben %{hours} uren aan %{project} besteed"
   project_created: Het project is aangemaakt
   project_updated: Het project is gewijzigd
+  project_archived: Het project is gearchiveerd
+  project_unarchived: Het project is niet meer gearchiveerd
   read_more: lees verder
   registration:
     edit: Pas uw gegevens aan
@@ -190,6 +200,8 @@ nl:
       edit: Account Aanpassen
       new: Registratie
     activities: Activiteiten
+    archives:
+      index: Gearchiveerde projecten
     application: Uren
     categories:
       index: Categoriëen

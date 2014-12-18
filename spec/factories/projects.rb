@@ -7,6 +7,7 @@
 #  created_at :datetime
 #  updated_at :datetime
 #  slug       :string(255)
+#  archived   :boolean
 #
 
 # Read about factories at https://github.com/thoughtbot/factory_girl
@@ -14,6 +15,7 @@
 FactoryGirl.define do
   factory :project do
     sequence(:name) { |n| "project#{n}" }
+    archived false
 
     factory :project_with_entries do
       after(:create) do |project, evaluator|
