@@ -58,6 +58,7 @@ en:
     weekly: 1 week
     monthly: 1 month
     yearly: 1 year
+    filters: filters
 
   entries:
     index:
